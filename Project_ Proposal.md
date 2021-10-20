@@ -1,0 +1,7 @@
+## Bank Customer Churn Classification 
+
+Losing customers costs substantial amounts of money. The purpose of this analysis is to create a classification model to predict if a bank customer will churn or not. This predictive model will allow banks to identify potential customers that are likely to exit and take measures to retain their business. Potential strategies could include special promotional offers, direct conversations with customer service and reductions in interest rates. 
+
+Data has been collected from kaggle and contains 14 features and 10,000 rows. Some of the features include credit score, age, sex, tenure, and balance. The target variable is a binary flagged exit column; 1 signifying that the customer has closed an account and 0 signifying the customer is retained. There are a variety of ways to approach this problem. High precision would allow for customer service representatives to be more certain they are reaching out to potential churning customers. High recall would allow an automated promotional system to send offers to a greater percentage of customers projected to churn. I believe I will take the precision route with the belief person to person interaction is more valuable than a promotional offer. 
+
+The minimum viable product for this project will be a logistic regression model with various diagnostic plots. Later stages will focus on tuning the threshold to minimize false positives and increase the precision of the model. 
