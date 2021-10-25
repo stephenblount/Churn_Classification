@@ -8,9 +8,7 @@ The purpose of this project is to create a classification model that will predic
 ![](Images/KNN_Confusion.png)
 
 
-
 ![](Images/LR_Confusion.png)
-
 
 
 ![](Images/DC_Confusion.png)
